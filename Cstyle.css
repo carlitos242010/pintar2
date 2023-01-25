@@ -1,0 +1,86 @@
+
+h1
+{
+	color: red; 
+	font-size: 40px;
+}
+.body_backgorund {
+	background-image: url("bg1.jpg");
+	background-position: center;
+	background-size:cover;
+}
+
+#myCanvas{
+	border-width: 10px;
+	background-color: rgb(250, 245, 245);
+border-style: dashed;
+
+}
+
+#color{
+	font-size:25px;
+	background-color: black;
+	color: blue;
+}
+
+#azul{
+	color:blue;
+}
+#celeste{
+	color:cyan;
+}
+#aquamarina{
+	color:aquamarine;
+}
+#amarillo{
+	color:yellow;
+}
+#purpura{
+	color:#AA1AF3;
+}
+#verde_biche{
+	color:#daf31a;
+}
+#verde_manzana{
+	color:#9DF23D;
+}
+#azul_code{
+	color:#3D47F2;
+}
+#salmon_claro  {
+	color:#FFA07A;
+}  
+#rosa{
+	color:pink;
+}
+#morado{
+	color:purple;
+}
+#verde{
+	color:rgb(15, 164, 15);
+}
+#rojo{
+	color: rgb(238, 0, 0);
+}
+#turquesa{
+	color: turquoise;
+}
+#lima{
+	color: lime;
+}
+#cafe{
+	color: brown;
+}
+#negro{
+	color: aliceblue;
+}
+#grosor{
+	font-size: 25px;
+	color: #040628;
+	background-color: darkgoldenrod 
+}
+#button{
+	font-size:25px;
+	color: #C6F31A;
+	background-color: black;
+}

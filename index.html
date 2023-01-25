@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+<title>C83</title>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"> </script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"> </script>
+
+
+
+<link rel="stylesheet" type="text/css" href="Cstyle.css">
+</head>
+<body class="body_backgorund">
+
+<center>
+	<h1>My First Canvas</h1>
+	<canvas id ="myCanvas" width="1000" height="700"></canvas>
+	<br>
+	<span>
+		<label for="colores">elige un color</label>
+		<select name="colores" id="color">
+			<option value="Blue" id="azul">azul</option>
+			<option value="Lime" id="lima">lima</option>
+			<option value="Turquoise"id="turquesa">turquesa</option>
+			<option value="Red" id="rojo">rojo</option>
+			<option value="Green"id="verde">verde</option>
+			<option value="Purple" id="morado">morado</option>
+			<option value="Pink" id="rosa">rosa</option>
+			<option value=#FFA07A id="salmon_claro">salmon claro</option>
+			<option value=#3D47F2 id="azul_code">azul code</option>
+			<option value=#9DF23D id="verde_manzana">verde manzana</option>
+			<option value=#C6F31A id="verde_biche">verde biche</option>
+			<option value=#AA1AF3 id="purpura">purpura</option>
+			<option value="yellow" id="amarillo">amarillo</option>
+			<option value="cyan" id="celeste">celeste</option>
+			<option value="black" id="negro">negro</option>
+			<option value="brown" id="cafe">cafe</option>
+			<option value="aquamarine" id="aquamarina">aquamarina</option>
+		</select>
+		</span>
+		<span>ancho de linea</span>
+		<input type="text" id="grosor">
+		<br><br>
+	<button id ="button" onclick="limpiar();">limpiecito</button>
+</center>
+
+
+<script src="Cmain.js"></script>
+</body>
+</html>
